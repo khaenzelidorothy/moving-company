@@ -335,7 +335,7 @@ color: white;
     width: 35%;
 
    }
-
+   .email-form{
     display: flex;
     justify-content: space-around;
    }
