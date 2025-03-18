@@ -1,0 +1,327 @@
+body{
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+header span{
+    text-decoration: underline;
+}
+
+.address{
+    display: flex;
+    justify-content: space-between;
+    margin: 10%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.family-moving{
+    background-image: url(images/mj.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 40%;
+    text-align: center;
+}
+.family-moving p{
+    
+}
+.about-us{
+    display: flex;
+    margin-top: 10%;
+    gap: 20%;
+}
+.Started img{
+    width: 80%;
+    height: 60%;
+}
+.Moving-with-Riaad{
+    margin-left: 9%;
+}
+.Moving-with-Riaad span{
+    text-decoration: underline;
+    color: rgb(240, 159, 8);
+}
+.Moving-with-Riaad h1{
+    font-size: 50px;
+}
+.about{
+    margin-top: 9%;
+    display: flex;
+    margin-left: -11%;
+}
+.about span{
+    text-decoration: underline;
+    color:rgb(240, 159, 8);
+}
+.about p{
+   margin-top: 12%;
+   margin-left: -5%;
+   font-size: 50px;
+}
+.what-we-do span{
+  text-decoration: underline;
+  color: rgb(240, 159, 8);
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+.what-we-do h1{
+    text-align: center;
+    font-size: xx-large;
+}
+.services{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.Packing{
+    border: 1px solid;
+    width: 20%;
+   
+}
+.how-we-work{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 14%;
+    margin-bottom: 12%;
+}
+.video{
+    display: flex;
+    gap: 30px;
+}
+.how-we-work h2{
+    font-weight: 700;
+    font-size: 50px;
+}
+.why-chose-riaad{
+    display: flex;
+    justify-content: space-around;
+}
+.image {
+    position: relative;
+    
+}
+.image .company{
+    position: absolute;
+    top: 20%;
+    transform: translate(50%, -50%);
+    line-height: 42px;
+    border: 1px solid;
+    padding: 12px 32px 85px 42px;
+    margin-top: 8%;
+    background-color: white;
+    color: black;
+}
+/* .shape{
+    width: 20%;
+    height: 80%;
+    background-color: blue;
+    left: 0%;
+} */
+.book-online{
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 7%;
+}
+.send-request{
+    position: relative;
+
+}
+.send-request img{
+   width: 100%;
+   position: relative;
+}
+.bookings{
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    
+}
+.testimonials{
+    margin-top: 10%;
+}
+.discover-more{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(240, 159, 8) ;
+    padding: 10%;
+    margin-top: 13%;
+}
+.entertainment img{
+    width: 50%;
+    height: 140%;
+    margin-right: -25px;
+}
+.entertainment{
+    margin-right: -20%;
+}
+.make-choices{
+    display: flex;
+  justify-content: space-around;
+   position: relative;
+  
+}
+ .make-choices img{
+   filter: blur(3px);
+ }
+   .making-choices img{
+    width: 130%;
+    height: 120%;
+   }
+   .empty-nesters img{
+    width: 130%;
+    height: 120%;
+   }
+   
+.texting{
+    position: absolute;
+    top: 0%;
+    transform: translate(-50%,50%);
+    margin-left: 10%;
+    color:black;
+    font-weight: 900;
+    line-height: 40px;
+    font-size: xx-large;
+}
+.news-articles{
+    margin-top: 12%;
+}
+.news-articles h1{
+    text-align: center;
+    font-size: 50px;
+}
+.customers{
+    display: flex;
+    justify-content: space-around;
+}
+#testimonials{
+    text-align: center;
+}
+.customer-testimonials{
+    border: 1px solid;
+    padding: 5%;
+    line-height: 30px;
+}
+.name{
+    text-align: center;
+   padding-top: 12%;
+   color:rgb(240, 159, 8);
+   }
+   .customer{
+    text-align: center;
+   }
+   .customer-testimonials .fa{
+    display: flex;
+    border: 1px solid ;
+    margin-left: 160px;
+    justify-content: center;
+    border-top-left-radius: 22px;
+    border-top-right-radius:22px ;
+    border-bottom-right-radius: 22px ;
+    border-bottom-left-radius:22px ;
+    background-color: rgb(23, 23, 197);
+   }
+   .booking{
+    border: 1px solid;
+    padding: 8%;
+    padding-left: 30%;
+    padding-right: 8%;
+    background-color: rgb(255, 165, 0);
+   
+   
+   }
+   .form{
+    border: 1px solid;
+    padding:3% 3% 4% 10% ;
+    background-color: rgb(68, 68, 231);
+   
+
+   }
+   #moving-type{
+    padding: 12px 8px;
+    margin: 12px;
+   }
+   #date{
+    padding: 12px 8px;
+    margin: 12px;
+   }
+   #from{
+    padding: 12px 8px;
+    margin: 12px;
+   }
+   #home-size{
+    padding: 12px 8px;
+    margin: 12px;
+   }
+   #to{
+    padding: 12px 8px;
+    margin: 12px;
+   }
+   button{
+    padding: 23px 14px;
+    margin: 12px;
+    background-color: rgb(240, 159, 8);
+
+   }
+   .email-form{
+    display: flex;
+    justify-content: space-around;
+   }
+   .news-articles span{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    color:rgb(240, 159, 8);
+   }
+   .updates span{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    color:rgb(240, 159, 8);
+    margin-top: 12%;
+   }
+   .updates h1{
+    text-align: center;
+    font-size: 50px;
+   }
+   .footer-bottom{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(107, 102, 102);
+    color: white;
+   }
+   .links ul{
+    list-style: none;
+    line-height: 42px;
+
+   }
+   a{
+    text-decoration: none;
+    color: black;
+   }
+   .copyright{
+    background-color: rgb(107, 102, 102) ;
+    padding: 5%;
+   }
+   .contacts{
+    margin-top: 5%;
+   }
+   .social-media{
+    margin-top: 2%;
+    display: flex;
+    gap: 1cm;
+   }
+
+
+ 
+
