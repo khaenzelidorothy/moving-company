@@ -206,8 +206,14 @@ header span{
     display: flex;
     justify-content: space-around;
     background-color:rgb(240, 159, 8) ;
-    padding: 10%;
+    padding: 8%;
     margin-top: 13%;
+}
+.submit-button{
+border: 1px;
+background-color: black;
+padding: 23px;
+color: white;
 }
 .entertainment img{
     width: 50%;
@@ -287,10 +293,14 @@ header span{
     padding-left: 30%;
     padding-right: 8%;
     background-color: rgb(255, 165, 0);
-    
-   
-   
-   }
+    }
+    .send-request i{
+        display: flex;
+        justify-content: center;
+        border-radius: 12px 12px 12px 12px;
+        background-color: rgb(255, 165, 0);
+        width: 5%;
+    }
    .form{
     border: 1px solid;
     padding:3% 3% 4% 10% ;
@@ -322,11 +332,19 @@ header span{
     padding: 23px 14px;
     margin: 12px;
     background-color: rgb(240, 159, 8);
+    width: 35%;
 
    }
-   .email-form{
+
     display: flex;
     justify-content: space-around;
+   }
+   #email{
+    padding: 10px 32px;
+    width: 55%;
+    border: none;
+    background-color: rgb(245, 245, 238);
+    text-align: center;
    }
    .news-articles span{
     display: flex;
